@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagens Aparecida</title>
+    <link rel="shortcut icon" href="./assets/halloween.png" type="image/png">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="gothic-container">
+        <header>
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="about.html">← Voltar ao Grimório</a>
+            </nav>
+        </header>
+
+        <main class="projeto-detalhe">
+
+            <h1 class="projetos-titulo" style="text-align: left; margin-bottom: 10px;">APARECIDA DO NORTE</h1>
+            <p style="color: var(--silver-ornament); font-style: italic; margin-bottom: 20px;">3º Semestre - Projeto
+                Interdisciplinar</p>
+
+            <h3>I. Descrição e Tecnologias</h3>
+            <p>Este sistema foi desenvolvido para resolver a administração logística de viagens de ônibus de uma
+                paróquia com destino a Aparecida do Norte. O sistema informatiza a escolha de coordenadores, o controle
+                de poltronas/vagas, e o registro de pagamentos e reservas, substituindo os antigos controles manuais.
+            </p>
+            <p>A arquitetura do projeto foi separada em duas frentes tecnológicas robustas:</p>
+            <ul>
+                <li><strong>Back-end (API):</strong> Construído em <strong>Java</strong> com <strong>Spring
+                        Boot</strong>. Utiliza <strong>PostgreSQL</strong> como banco de dados relacional, migrações com
+                    Flyway, e controle de autenticação seguro via Spring Security e tokens JWT.</li>
+                <li><strong>Front-end:</strong> Interface de usuário intuitiva desenvolvida com HTML5, CSS3 e JavaScript
+                    puro, consumindo os endpoints da API REST.</li>
+            </ul>
+
+            <h3>II. Minha Participação</h3>
+            <p>Neste projeto, colaborei diretamente com a colega Bianca Bomfim no desenvolvimento da interface do
+                sistema. Participei da implementação das telas em <strong>HTML, CSS e JavaScript</strong>, garantindo
+                que o fluxo de navegação — desde a escolha dos coordenadores até o painel de reservas de assentos —
+                fosse funcional e responsivo.</p>
+
+            <h3>III. Código-Fonte</h3>
+            <p>Os códigos fontes do projeto estão versionados em repositórios separados para o Front-end e para a API
+                Back-end:</p>
+            <div style="display: flex; gap: 15px; margin-top: 20px; flex-wrap: wrap;">
+                <a href="https://github.com/bianca-bomfim/aparecida-do-norte" class="btn-goth"
+                    target="_blank">Repositório: Front-end</a>
+                <a href="https://github.com/Rogue-s-Haven/PI-aparecida" class="btn-goth" target="_blank">Repositório:
+                    API (Back-end)</a>
+            </div>
+
+            <h3>IV. Demonstração em Vídeo</h3>
+            <div class="screenshot-container">
+                <div class="ornate-media-frame gothic-frame">
+                    <video controls autoplay loop muted class="embedded-video">
+                        <source src="./assets/AparecidadoNorte.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Desenvolvido por Amanda Ianes &copy; 2026</p>
+        </footer>
+    </div>
+</body>
+
+</html>

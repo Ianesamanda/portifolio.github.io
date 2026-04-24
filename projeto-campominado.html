@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo Minado</title>
+    <link rel="shortcut icon" href="./assets/halloween.png" type="image/png">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="gothic-container">
+        <header>
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="about.html">← Voltar ao Grimório</a>
+            </nav>
+        </header>
+
+        <main class="projeto-detalhe">
+
+            <h1 class="projetos-titulo" style="text-align: left; margin-bottom: 10px;">CAMPO MINADO</h1>
+            <p style="color: var(--silver-ornament); font-style: italic; margin-bottom: 20px;">Programação Para
+                Dispositivos Móveis II</p>
+
+            <h3>I. Descrição e Tecnologias</h3>
+            <p> Este projeto consiste na recriação mobile do clássico jogo de raciocínio lógico "Campo Minado". A
+                aplicação exige precisão matemática para gerar aleatoriamente os perigos pelo tabuleiro e calcular a
+                proximidade das minas em relação aos blocos adjacentes.</p>
+            <p>A arquitetura do jogo baseia-se em:</p>
+            <ul>
+                <li><strong>Gerenciamento de Estado Avançado:</strong> Uso de hooks do React Native para controlar a
+                    grade de blocos, o status de vitória/derrota e a pontuação do usuário.</li>
+                <li><strong>Lógica Algorítmica:</strong> Implementação de matrizes (arrays 2D) e funções recursivas
+                    (para revelar áreas seguras encadeadas).</li>
+                <li><strong>Plataforma:</strong> Desenvolvido e testado em tempo real no ambiente Expo Snack.</li>
+            </ul>
+
+            <h3>II. Minha Participação</h3>
+            <p>
+            <p> Este Mini Projeto foi desenvolvido <strong>integralmente por mim</strong>. Fui a única responsável por
+                toda a esteira de criação, desde a estruturação algorítmica do "motor" do jogo (espalhamento das minas e
+                cálculo de vizinhança) até a construção da interface gráfica (UI) utilizando os componentes nativos do
+                React Native. </p>
+            </p>
+
+            <h3>III. Código-Fonte</h3>
+            <p>Você pode inspecionar a lógica do código ou jogar a versão emulada acessando o link abaixo:</p>
+            <a href="https://snack.expo.dev/@amanda_fonseca/mp9_campominado" class="btn-goth" target="_blank">Acessar o
+                Expo</a>
+
+            <h3>IV. Demonstração em Vídeo</h3>
+            <div class="screenshot-container">
+                <div class="video-frame-goth"
+                    style="width: 100%; max-width: 600px; height: auto; padding: 10px; background: transparent; box-shadow: 0 0 15px rgba(0,0,0,0.8);">
+                    <video controls autoplay loop muted class="video-content"
+                        style="border-radius: 8px; width: 100%; height: auto; object-fit: contain;">
+                        <source src="./assets/campo-minado.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Desenvolvido por Amanda Ianes &copy; 2026</p>
+        </footer>
+    </div>
+</body>
+
+</html>
