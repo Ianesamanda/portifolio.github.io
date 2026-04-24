@@ -457,3 +457,41 @@ footer {
     color: var(--silver-ornament);
     text-align: center; 
 }
+
+@media (max-width: 768px) {
+    .gothic-container {
+        width: 95%;
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    .cabecalho__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .decor-gotica {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+        width: 150px; 
+    }
+
+    div[style*="display: flex"] {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .btn-goth {
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .projetos-titulo {
+        font-size: 1.8rem;
+        text-align: center !important; 
+    }
+}
