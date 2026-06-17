@@ -20,33 +20,27 @@
         <main class="projeto-detalhe">
 
             <h1 class="projetos-titulo" style="text-align: left; margin-bottom: 10px;">Ponto Livre</h1>
-            <p style="color: var(--silver-ornament); font-style: italic; margin-bottom: 20px;">6º Semestre - Projeto Interdisciplinar.</p>
+            <p style="color: var(--silver-ornament); font-style: italic; margin-bottom: 20px;">6º Semestre - Projeto Interdisciplinar</p>
 
             <h3>I. Descrição e Tecnologias</h3>
-            <p> Este projeto consiste na recriação mobile do clássico jogo de raciocínio lógico "Campo Minado". A
-                aplicação exige precisão matemática para gerar aleatoriamente os perigos pelo tabuleiro e calcular a
-                proximidade das minas em relação aos blocos adjacentes.</p>
-            <p>A arquitetura do jogo baseia-se em:</p>
+            <p> O <strong>PontoLivre</strong> é uma solução completa de Internet das Coisas (IoT) desenvolvida para a gestão inteligente e automatizada de estacionamentos rotativos. O sistema elimina a necessidade de tickets físicos e operadores manuais, unindo hardware de detecção a um ecossistema de software escalável.</p>
+            <p>A arquitetura de alta complexidade foi dividida em quatro camadas principais: </p>
             <ul>
-                <li><strong>Gerenciamento de Estado Avançado:</strong> Uso de hooks do React Native para controlar a
-                    grade de blocos, o status de vitória/derrota e a pontuação do usuário.</li>
-                <li><strong>Lógica Algorítmica:</strong> Implementação de matrizes (arrays 2D) e funções recursivas
-                    (para revelar áreas seguras encadeadas).</li>
-                <li><strong>Plataforma:</strong> Desenvolvido e testado em tempo real no ambiente Expo Snack.</li>
+                <li><strong>Hardware & IoT:</strong> Microcontroladores ESP32 programados em C++ com sensores ultrassônicos para detectar veículos e gerar códigos únicos.</li>
+                <li><strong>Mensageria em Tempo Real:</strong> Comunicação de baixíssima latência utilizando o protocolo MQTT (Mosquitto).</li>
+                <li><strong>Backend:</strong> Construído em Kotlin com Spring Boot, Spring Security (JWT) e PostgreSQL (com migrações Flyway), tudo orquestrado via Docker.</li>
+                <li><strong>Front-end (Mobile & Web):</strong> Interfaces modernas construídas com Kotlin Multiplatform (KMP) e Jetpack Compose.</li>
             </ul>
 
             <h3>II. Minha Participação</h3>
             <p>
-            <p> Este Mini Projeto foi desenvolvido <strong>integralmente por mim</strong>. Fui a única responsável por
-                toda a esteira de criação, desde a estruturação algorítmica do "motor" do jogo (espalhamento das minas e
-                cálculo de vizinhança) até a construção da interface gráfica (UI) utilizando os componentes nativos do
-                React Native. </p>
+            <p> Minha participação envolveu a compreensão e integração dessas múltiplas camadas, garantindo que as regras de negócio definidas no backend (como tarifas, estornos automáticos e tolerâncias) fossem refletidas corretamente nas interfaces desenvolvidas em <strong>Kotlin Multiplatform</strong>. Colaborei para assegurar que a jornada do usuário final fosse fluida, traduzindo os dados complexos captados via MQTT em painéis de controle intuitivos.</p>
             </p>
 
             <h3>III. Código-Fonte</h3>
-            <p>Você pode inspecionar a lógica do código ou jogar a versão emulada acessando o link abaixo:</p>
-            <a href="https://snack.expo.dev/@amanda_fonseca/mp9_campominado" class="btn-goth" target="_blank">Acessar o
-                Expo</a>
+            <p>A arquitetura, o firmware dos sensores e os códigos-fonte da aplicação estão documentados no repositório oficial da equipe: </p>
+            <a href="https://github.com/deletrr/PI6" class="btn-goth" target="_blank">Ver no
+                GitHub</a>
 
             <h3>IV. Demonstração em Vídeo</h3>
             <div class="screenshot-container">
